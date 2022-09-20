@@ -8,9 +8,8 @@ use Web3\RequestManagers\RequestManager;
 use Web3\RequestManagers\HttpRequestManager;
 use Web3\Contract;
 use Web3\Utils;
-use Web3\Contracts\Ethabi;
 use Web3\Formatters\IntegerFormatter;
-use phpseclib\Math\BigInteger as BigNumber;
+use phpseclib3\Math\BigInteger as BigNumber;
 
 class ContractTest extends TestCase
 {
@@ -19,7 +18,7 @@ class ContractTest extends TestCase
      *
      * @var \Web3\Contract
      */
-    protected $contract;
+    protected Contract $contract;
 
     /**
      * testAbi
