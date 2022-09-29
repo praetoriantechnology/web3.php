@@ -1,4 +1,4 @@
-FROM node:9.11.1-alpine
+FROM node:18-alpine
 
 MAINTAINER Peter Lai <alk03073135@gmail.com>
 

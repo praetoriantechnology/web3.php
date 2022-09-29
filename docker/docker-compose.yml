@@ -1,13 +1,12 @@
-version: '2'
+version: '3.9'
 
 services:
-
     php:
         build:
             context: ./php
-            dockerfile: Dockerfile-72
+            dockerfile: Dockerfile-81
         volumes:
-            - ./app:/app
+            - ./../:/app
         tty: true
 
     ganache:
